@@ -1,0 +1,20 @@
+# Ignorar el entorno virtual
+.venv
+venv/
+
+# Ignorar archivos de Git
+.git
+.gitignore
+
+# Ignorar archivos de configuración de IDEs
+.idea/
+.vscode/
+
+# Ignorar caché de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignorar el propio Dockerfile y archivos de compose
+Dockerfile
+docker-compose.yml
